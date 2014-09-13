@@ -7,7 +7,7 @@ default: &default
 
 development:
   <<: *default
-  database: mtg_web_game_development
+  database: change_this_database_development
   host: localhost
 
   # Schema search path. The server defaults to $user,public
@@ -21,7 +21,7 @@ development:
 
 test:
   <<: *default
-  database: mtg_web_game_test
+  database: change_this_database_test
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -44,7 +44,7 @@ test:
 #
 production:
   <<: *default
-  database: mtg_web_game_production
-  username: mtg_web_game
+  database: change_this_database_production
+  username: change_me
   password: <%= ENV['MTG_WEB_GAME_DATABASE_PASSWORD'] %>
 

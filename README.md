@@ -7,8 +7,9 @@ It provides for the following:
 * Devise
   * Signup
   * Signin/out
-* Bootstrap-sass
+* PostgreSQL
 * Rspec
+* Bootstrap-sass
 
 Authentication is fully tested.
 
