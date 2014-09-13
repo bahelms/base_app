@@ -8,4 +8,7 @@ It provides for the following:
   * Signup
   * Signin/out
 * Bootstrap-sass
+* Rspec
+
+Authentication is fully tested.
 
