@@ -1,4 +1,11 @@
-# Magic: The Gathering Web Game
+# Base App
 
-This app is my homemade, free version of MTG Online. 
+This foundation app can be used to build other apps on top of.
+
+It provides for the following:
+
+* Devise
+  * Signup
+  * Signin/out
+* Bootstrap-sass
 
